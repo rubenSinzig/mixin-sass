@@ -10,8 +10,9 @@ body {
 .first,
 .second,
 .third {
-  width: 5rem;
-  height: 5rem;
+  width: 0.25rem;
+  height: 1rem;
+  border-radius: 5rem;
 }
 
 .first {
@@ -24,6 +25,45 @@ body {
 
 .third {
   background-color: #34623f;
+}
+
+.first {
+  animation-name: box-stretch;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.second {
+  animation-name: box-stretch;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.third {
+  animation-name: box-stretch;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes box-stretch {
+  0% {
+    height: 1rem;
+  }
+  25% {
+    height: 2rem;
+  }
+  50% {
+    height: 3rem;
+  }
+  75% {
+    height: 4rem;
+  }
+  100% {
+    height: 5rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
