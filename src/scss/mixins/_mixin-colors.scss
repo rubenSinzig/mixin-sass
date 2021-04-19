@@ -1,0 +1,7 @@
+@mixin welcome-color($color) {
+  @if map-has-key($welcome-colors, $color) {
+    background-color: map-get($welcome-colors, $color);
+  } @else {
+    @error "#{$color} is not defined, use ./variables/_variable-color.scss -> #{welcome-color}.";
+  }
+}

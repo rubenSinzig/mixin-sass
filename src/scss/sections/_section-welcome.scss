@@ -1,0 +1,17 @@
+.first,
+.second,
+.third {
+  @include size-for-box;
+}
+
+.first {
+  @include welcome-color(light);
+}
+
+.second {
+  @include welcome-color(middle);
+}
+
+.third {
+  @include welcome-color(dark);
+}

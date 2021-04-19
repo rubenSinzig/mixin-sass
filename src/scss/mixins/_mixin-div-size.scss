@@ -1,0 +1,6 @@
+// welcome -> div size -> animated
+@mixin size-for-box {
+  width: 0.25rem;
+  height: 1rem;
+  border-radius: 5rem;
+}

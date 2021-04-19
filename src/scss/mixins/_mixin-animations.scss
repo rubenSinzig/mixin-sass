@@ -1,0 +1,7 @@
+// animation stretch
+@mixin stretch($time) {
+  animation-name: box-stretch;
+  animation-duration: #{$time};
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
