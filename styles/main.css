@@ -1,3 +1,29 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1e2f23;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.first,
+.second,
+.third {
+  width: 5rem;
+  height: 5rem;
+}
+
+.first {
+  background-color: #768948;
+}
+
+.second {
+  background-color: #607744;
+}
+
+.third {
+  background-color: #34623f;
+}
 
 /*# sourceMappingURL=main.css.map */
