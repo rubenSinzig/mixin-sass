@@ -7,8 +7,9 @@
 
 // size for box
 @mixin size-for-box {
-  width: 5rem;
-  height: 5rem;
+  width: 0.25rem;
+  height: 1rem;
+  border-radius: 5rem;
 }
 
 // animation stretch
